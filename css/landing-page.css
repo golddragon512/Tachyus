@@ -157,10 +157,13 @@ body {
 
 .content-section-platform:nth-of-type(1),
 .content-section-whoweare:nth-of-type(1),
-.content-press:nth-of-type(1) {
-	padding-top: 150px;
+.content-press:nth-of-type(1),.first-section-platform {
+	padding-top: 150px!important;
 }
 
+.first-section-platform {
+	padding-top: 150px!important;
+}
 .platform-hr {
 	width: 512px;
 	background-color: #d3d3d3;
