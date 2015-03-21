@@ -1,0 +1,254 @@
+corr<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <title>Tachyus Join Us</title>
+
+    <link href="img/favicon.ico" rel="icon" type="image/ico"/>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'/>
+
+    <!-- Add custom CSS here -->
+    <link href="css/landing-page.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/tachyus.png" style="height:18px;"/></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="product.html">Product</a>
+                </li>
+                <li>
+                    <a href="whoweare.html">Who We Are</a>
+                </li>
+                <li>
+                    <a class="active-link" href="joinus.html">Join Us</a>
+                </li>
+                <li>
+                    <a href="mailto:contact@tachyus.com">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- PAGE CONTENT -->
+<div class="content-section-product joinus">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Values</h1>
+                <hr class="product-hr"/>
+            </div>
+        </div>
+        <div class="row joinus-row">
+            <div class="col-lg-6">
+                <p class="lead joinus-firstlead">Energy</p>
+            	<p>We recognize the fundamental importance of energy to human life. We believe oil and gas producers deserve gratitude and respect for their crucial role in making everyoneœôòùs daily lives better. We marvel at the tremendous scientific and industrial accomplishments underlying the transformation of liquid thousands of feet below the earth into substances that power our modern world.</p>
+            </div>
+            <div class="col-lg-6">
+                <p class="lead">Ownership</p>
+            	<p>We seek partners, not subordinates, as team members. We build Tachyus together as our shared company and we each take responsibility for making it the best that it can be. Consequently, every Tachyon owns a significant equity stake in Tachyus. We all gain from growing Tachyus into a major world-changing enterprise. </p>
+            </div>
+        </div>
+        <div class="row joinus-row">
+            <div class="col-lg-6">
+                <p class="lead">Honesty</p>
+            	<p>Honesty begins by being honest with yourself. There are facts about the world that we must accept and acknowledge before any successful action is possible. We use our minds not to wish that things would change, but to identify what is and what should be. Then we plan and execute in order to bring about the desired outcome.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <p class="lead">Alignment</p>
+            	<p>To build a company requires designing and scaling a management philosophy and system. We continuously contemplate and test how to maintain and solidify alignment between team members. It is challenging and mission-critical in a fast-paced high-growth environment to focus on communications, information flow, structural incentives, and team culture. As we grow, we always ask ourselves how we can best collaborate and promote efficient and effective knowledge sharing.
+                </p>
+            </div>
+        </div>
+        <div class="row joinus-row">
+            <div class="col-lg-6">
+                <p class="lead">Curiosity</p>
+            	<p>Intellectual curiosity is an unmistakable personal virtue we seek in Tachyons. We enjoy a diverse array of passions: skiing, theoretical physics, hardware tinkering, arts and crafts, mathematical proofs, guitar, personal philosophy, video production, and hat design to name a few. Despite the vast differences between these pursuits, we are united by a shared approach to our interests--an all-consuming desire to understand and master the world around us.</p>
+            </div>
+            <div class="col-lg-6">
+                <p class="lead">Self-Awareness</p>
+				<p>Meaningful self-improvement and personal growth fundamentally require self-awareness. We each work hard to understand our own thoughts, emotions, strengths, and weaknesses. Self-awareness requires an ongoing commitment to question how one is responding to new situations, integrating new information, and interacting with others.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="joinus-banner">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</div>
+
+<div class="content-section-product joinus" id="benefits">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Benefits</h1>
+                <hr class="product-hr"/>
+            </div>
+        </div>
+        <div class="row joinus-row">
+            <div class="col-lg-6">
+                <p class="lead joinus-firstlead">Mission-Critical Problems</p>
+                <p class="follow">We build software and hardware that requires tackling some of the hardest measurement and analysis challenges in the world. Our technologies are mission-critical for our partners to produce oil and gas profitably and safely.</p>
+            </div>
+            <div class="col-lg-6">
+                <p class="lead">Compensation</p>
+                <p class="follow">We offer market compensation, significant equity stakes, 100 percent of the cost of top of the line medical, dental, and vision insurance, generous workstation budgets, around-the-clock meals, team trips, and an education stipend for personal growth.</p>
+            </div>
+        </div>
+        <div class="row joinus-row">
+            <div class="col-lg-6">
+                <p class="lead">Team</p>
+				<p class="follow">We have deep software engineering, hardware design and data science experience from building OpenGov, CACS, Teslaœôòùs battery safety system, the worldœôòùs most sensitive neutrino detector, and Visual Studio cloud developer tools. We hire the best, so you work with the best.</p>
+            </div>
+            <div class="col-lg-6">
+                <p class="lead">Customers</p>
+                <p class="follow">Every team member spends time in the field. We create technology to optimize energy production for oil and gas producers, so every Tachyon must understand the daily workflows of pumpers, production engineers, and reservoir engineers first-hand.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content-section-product joinus" id="jobs">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Jobs</h1>
+                <hr class="product-hr"/>
+            </div>
+        </div>
+        <div class="row joinus-row">
+            <div class="col-lg-12">
+                <p class="lead jobsintro">If you are interested in joining us as a Tachyon to optimize energy production, tell us why at <a href="mailto:jobs@tachyus.com">jobs@tachyus.com</a>.</p>
+            </div>
+        </div>
+        <div class="row joinus-row">
+            <div class="col-lg-6">
+                <p class="lead joinus-firstlead">Software</p>
+                <p class="lead jobsposition"><a href="joinus/software-engineer.html">Software Engineer</a></p>
+                <p class="lead jobsposition"><a href="joinus/front-end-engineer.html">Front-End Engineer</a></p>
+                <p class="lead jobsposition"><a href="joinus/ios-engineer.html">iOS Engineer</a></p>
+            </div>
+            <div class="col-lg-6">
+                <p class="lead">Science</p>
+                <p class="lead jobsposition"><a href="joinus/petroleum-engineer.html">Petroleum Engineer</a></p>
+                <p class="lead jobsposition"><a href="joinus/hardware-engineer.html">Hardware Engineer</a></p>
+                <p class="lead jobsposition"><a href="joinus/data-physicist.html">Data Physicist</a></p>
+            </div>
+        </div>
+        <div class="row joinus-row">
+            <div class="col-lg-6">
+                <p class="lead">Product</p>
+                <p class="lead jobsposition"><a href="joinus/product-lead.html">Product Lead</a></p>
+                <p class="lead jobsposition"><a href="joinus/correctness-engineer.html">Correctness Engineer</a></p>
+                <!--<p class="lead jobsposition"><a href="joinus/customer-support.html">Customer Support</a></p>-->
+                <!--<p class="lead jobsposition"><a href="joinus/ux-designer.html">UX Design</a></p>-->
+            </div>
+            <div class="col-lg-6">
+                <p class="lead">Operations</p>
+                <p class="lead jobsposition"><a href="joinus/operations-lead.html">Operations Lead</a></p>
+                <!--p class="lead jobsposition"><a href="joinus/executive-assistant.html">Executive Assistant</a></p-->
+            </div>
+        </div>
+        <!--<div class="row joinus-row">-->
+            <!--<div class="col-lg-6">-->
+                <!--<p class="lead">Business</p>-->
+                <!--<p class="lead jobsposition"><a href="joinus/business-lead.html">Business Lead</a></p>-->
+                <!--<p class="lead jobsposition"><a href="joinus/business-development">Business Development</a></p>-->
+                <!--&lt;!&ndash;<p class="lead jobsposition"><a href="joinus/sales.html">Sales</a></p>&ndash;&gt;-->
+                <!--&lt;!&ndash;<p class="lead jobsposition"><a href="joinus/deployment.html">Deployment</a></p>&ndash;&gt;-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+</div>
+
+<footer id="main-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <ul>
+                    <li class="page-name"><a href="product.html">Product</a></li>
+                    <li><a href="product.html#measurement">Measurement</a></li>
+                    <li><a href="product.html#alerts">Alerts</a></li>
+                    <li><a href="product.html#management">Management</a></li>
+                    <li><a href="product.html#analysis">Analysis</a></li>
+                    <li><a href="product.html#reporting">Reporting</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <ul>
+                    <li class="page-name"><a href="whoweare.html">Who We Are</a></li>
+                    <li><a href="whoweare.html">Our Mission</a></li>
+                    <li><a href="whoweare.html">Vision</a></li>
+                    <li><a href="whoweare.html#leadership">Leadership</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <ul>
+                    <li class="page-name"><a href="joinus.html">Join Us</a></li>
+                    <li><a href="joinus.html">Values</a></li>
+                    <li><a href="joinus.html#benefits">Benefits</a></li>
+                    <li><a href="joinus.html#jobs">Jobs</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <ul>
+                    <li class="page-name">Contact</li>
+                    <li><a href="mailto:contact@tachyus.com">contact@tachyus.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- JavaScript -->
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-47789898-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+</body>
+
+
+
+</html>

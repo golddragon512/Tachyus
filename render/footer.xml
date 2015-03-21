@@ -1,0 +1,79 @@
+<footer id="main-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-15" id="page-name-solutions">
+        <ul>
+          <li class="page-name"><a href="http://www.tachyus.com/solutions">Solutions</a></li>
+          <li><a href="http://www.tachyus.com/solutions#cyclicsteaming">Cyclic Steaming</a></li>
+          <li><a href="http://www.tachyus.com/solutions#steamflooding">Steamingflooding</a></li>
+          <li><a href="http://www.tachyus.com/solutions#waterflooding">Waterflooding</a></li>
+          <li><a href="http://www.tachyus.com/solutions#co2flooding">CO<sub>2</sub>-flooding</a></li>
+          <li><a href="http://www.tachyus.com/solutions#pumpoptimization">Pump Optimization</a></li>
+          <li><a href="http://www.tachyus.com/solutions#workover">Workover Priotitization</a></li>
+          <li><a href="http://www.tachyus.com/solutions#shalefracing">Shale Fracing</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-15" id="page-name-platform">
+        <ul>
+          <li class="page-name"><a href="http://www.tachyus.com/platform">Platform</a></li>
+          <li><a href="http://www.tachyus.com/platform#prescriptive">Prescriptive Analytics</a></li>
+          <li><a href="http://www.tachyus.com/platform#predictive">Predictive Analytics</a></li>
+          <li><a href="http://www.tachyus.com/platform#descriptive">Descriptive Analytics</a></li>
+          <li><a href="http://www.tachyus.com/platform#integration">Integration</a></li>
+          <li><a href="http://www.tachyus.com/platform#measurement">Measurement</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-15" id="page-name-whoweare">
+        <ul>
+          <li class="page-name"><a href="http://www.tachyus.com/whoweare">Who We Are</a></li>
+          <li><a href="http://www.tachyus.com/whoweare#mission">Our Mission</a></li>
+          <li><a href="http://www.tachyus.com/whoweare#vision">Vision</a></li>
+          <li><a href="http://www.tachyus.com/whoweare#leadership">Leadership</a></li>
+          <li><a href="http://www.tachyus.com/whoweare#advisors">Advisors</a></li>
+          <li><a href="http://www.tachyus.com/whoweare#investors">Investors</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-15" id="page-name-joinus">
+        <ul>
+          <li class="page-name"><a href="http://www.tachyus.com/joinus">Join Us</a></li>
+          <li><a href="http://www.tachyus.com/joinus#values">Values</a></li>
+          <li><a href="http://www.tachyus.com/joinus#benefits">Benefits</a></li>
+          <li><a href="http://www.tachyus.com/joinus#jobs">Jobs</a></li>
+          <li><a href="http://www.tachyus.com/joinus#tachyons">Tachyons</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-15" id="page-name-contact">
+        <ul>
+          <li class="page-name" id="contact-press"><a href="http://www.tachyus.com/press">Press</a></li>
+          <li class="page-name" id="contact-blog"><a href="https://medium.com/@tachyuscorp" target="_blank">Blog</a></li>
+          <li class="page-name" id="contact-contact"><a href="http://www.tachyus.com/contact">Contact</a></li>
+          <li id="contact-email"><a href="mailto:contact@tachyus.com">contact@tachyus.com</a></li>
+          <li><a href="https://twitter.com/tachyuscorp" target="_blank">Twitter</a></li>
+          <li><a href="https://www.facebook.com/tachyus" target="_blank">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function() {
+      if (window.location.pathname.indexOf("/solutions") == 0) {
+        document.getElementById('solutions-nav-link').className += "active-link";
+      }
+      else if (window.location.pathname.indexOf("/platform") == 0) {
+        document.getElementById('platform-nav-link').className += "active-link";
+      }
+      else if (window.location.pathname.indexOf("/whoweare") == 0) {
+        document.getElementById('whoweare-nav-link').className += "active-link";
+      }
+      else if (window.location.pathname.indexOf("/joinus") == 0) {
+        document.getElementById('joinus-nav-link').className += "active-link";
+      }
+      else if (window.location.pathname.indexOf("/press") == 0) {
+        document.getElementById('press-nav-link').className += "active-link";
+      }
+      else if (window.location.pathname.indexOf("/contact") == 0) {
+        document.getElementById('contact-nav-link').className += "active-link";
+      }
+    })();
+  </script>
+</footer>
