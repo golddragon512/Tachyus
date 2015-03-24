@@ -6,6 +6,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <meta name="theme-color" content="#3a3a3a" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
     <title>Tachyus | Who We Are</title>
     <link href="../img/favicon.ico" rel="icon" type="image/ico" />
     <!-- Bootstrap core CSS -->
@@ -53,6 +54,11 @@
       </div>
     </nav>
     <!-- PAGE CONTENT -->
+
+    <!--[if lt IE 9]>
+    <div class="ie-content"></div>
+    <![endif]-->
+    
     <div class="banner-whoweare">
       <div class="container">
         <div class="row">
@@ -60,6 +66,9 @@
         </div>
       </div>
     </div>
+    <!--[if lt IE 9]>
+    <div class="ie-content-top"></div>
+    <![endif]-->
     <div class="content-section-whoweare">
       <span class="anchor-jump" id="mission"></span>
       <span class="anchor-jump" id="vision"></span>
@@ -434,6 +443,114 @@
         $('#readmore-expand').hide();
       });
 
+      $current_width = jQuery(window).width();
+      
+      if ($current_width < 1200 ){
+        $(".title-group.row1").off('click')
+            $(".title-group.row1").click(function(e){
+              $(this).next().slideToggle();
+              e.preventDefault();
+            });
+
+            $(".title-group.row2").off('click')
+            $(".title-group.row2").click(function(e){
+              $(this).next().slideToggle();
+              e.preventDefault();
+            });
+
+            $(".title-group.row3").off('click')
+            $(".title-group.row3").click(function(e){
+              $(this).next().slideToggle();
+              e.preventDefault();
+            });
+
+            $(".title-group.row4").off('click')
+            $(".title-group.row4").click(function(e){
+              $(this).next().slideToggle();
+              e.preventDefault();
+            });
+      }else{
+        $(".title-group.row1").off('click')
+            $(".title-group.row1").click(function(e){
+              $(".bio-row1").slideToggle();
+              e.preventDefault();
+            });
+
+            $(".title-group.row2").off('click')
+            $(".title-group.row2").click(function(e){
+              $(".bio-row2").slideToggle();
+              e.preventDefault();
+            });
+
+            $(".title-group.row3").off('click')
+            $(".title-group.row3").click(function(e){
+              $(".bio-row3").slideToggle();
+              e.preventDefault();
+            });
+
+            $(".title-group.row4").off('click')
+            $(".title-group.row4").click(function(e){
+              $(".bio-row4").slideToggle();
+              e.preventDefault();
+            }); 
+      }
+    
+      jQuery(window).resize(function(){
+        $current_width = jQuery(window).width();
+        if ($current_width < 1200 ){
+          $(".title-group.row1").off('click')
+            $(".title-group.row1").click(function(e){
+              $(this).next().slideToggle();
+              e.preventDefault();
+            });
+
+            $(".title-group.row2").off('click')
+            $(".title-group.row2").click(function(e){
+              $(this).next().slideToggle();
+              e.preventDefault();
+            });
+
+            $(".title-group.row3").off('click')
+            $(".title-group.row3").click(function(e){
+              $(this).next().slideToggle();
+              e.preventDefault();
+            });
+
+            $(".title-group.row4").off('click')
+            $(".title-group.row4").click(function(e){
+              $(this).next().slideToggle();
+              e.preventDefault();
+            }); 
+        }else{
+          $(".title-group.row1").off('click')
+            $(".title-group.row1").click(function(e){
+              $(".bio-row1").slideToggle();
+              e.preventDefault();
+            });
+
+            $(".title-group.row2").off('click')
+            $(".title-group.row2").click(function(e){
+              $(".bio-row2").slideToggle();
+              e.preventDefault();
+            });
+
+            $(".title-group.row3").off('click')
+            $(".title-group.row3").click(function(e){
+              $(".bio-row3").slideToggle();
+              e.preventDefault();
+            });
+
+            $(".title-group.row4").off('click')
+            $(".title-group.row4").click(function(e){
+              $(".bio-row4").slideToggle();
+              e.preventDefault();
+            }); 
+        }
+      });
+  
+
+
+
       $(document).ready(function(){
        function registerListeners(mediaQueryList){
           if(mediaQueryList.matches) {
@@ -495,6 +612,7 @@
         var windowSizeCheck = window.matchMedia('all and (max-width: 1200px)');
         windowSizeCheck.addListener(registerListeners);
         registerListeners(windowSizeCheck);
+
       });
     </script>
     <script type="text/javascript">

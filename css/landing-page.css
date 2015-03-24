@@ -434,12 +434,16 @@ h2.section-heading {
 	float: left;
 }
 
-.banner-whoweare {
+.banner-whoweare{
 	padding-top: 500px;
 	padding-bottom: 150px;
+	margin-top: 100px;
 	color: #f8f8f8;
 	background: url(../img/exec-team.jpg) no-repeat center top;
 	background-size: cover;
+	width: 100%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale')";
 }
 
 .joinus-banner0 {
@@ -448,6 +452,9 @@ h2.section-heading {
 	color: #f8f8f8;
 	background: url(../img/tachoons.png) no-repeat center top;
 	background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale')";
+
 }
 
 .joinus-banner {
@@ -1087,6 +1094,11 @@ footer #contact-email {
 	margin-top: -15px;
 }
 
+
+.ie-content-top + .content-section-whoweare > .anchor-jump{
+	height: 50px!important;
+}
+
 /* responsive */
 
 @media (max-width: 1199px) {
@@ -1111,12 +1123,15 @@ footer #contact-email {
 		width: 70%;
 		margin: 0 auto 10px;
 	}
-	.banner-whoweare {
+	.banner-whoweare{
 		padding-top: 200px;
 		padding-bottom: 300px;
 		color: #f8f8f8;
 		background: url(../img/exec-team.jpg) no-repeat center top;
 		background-size: cover;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale');
+    	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale')";		
+
 	}
 	.joinus-banner0 {
 		padding-top: 200px;
@@ -1124,6 +1139,9 @@ footer #contact-email {
 		color: #f8f8f8;
 		background: url(../img/tachoons.png) no-repeat center top;
 		background-size: cover;
+	    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale')";
+
 	}
 	.joinus-row p,
 	.jobs-row p,
@@ -1394,12 +1412,14 @@ footer #contact-email {
 		width: 80%;
 		margin: 10px auto;
 	}
-	.banner-whoweare {
+	.banner-whoweare{
 		margin-top: 100px;
 		padding-top: 0;
 		padding-bottom: 400px;
 		background: url(../img/exec-team.jpg) no-repeat center top;
 		background-size: cover;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale')";		
 	}
 	.joinus-banner0 {
 		margin-top: 100px;
@@ -1407,6 +1427,9 @@ footer #contact-email {
 		padding-bottom: 400px;
 		background: url(../img/tachoons.png) no-repeat center top;
 		background-size: cover;
+	    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale')";
+
 	}
 	footer .col-lg-15 {
 		padding-left: 20px;
@@ -1474,15 +1497,7 @@ footer #contact-email {
 	.solutions-banner p {
 		width: 90%;
 	}
-	.banner-whoweare {
-		margin-top: 100px;
-		padding-top: 0;
-		padding-bottom: 400px;
-		background: url(../img/exec-team.jpg) no-repeat center top;
-		background-size: cover;
-		height: 100%;
-		width: 100%;
-	}
+	
 	.joinus-banner0 {
 		margin-top: 100px;
 		padding-top: 0;
@@ -1491,6 +1506,9 @@ footer #contact-email {
 		background-size: cover;
 		height: 100%;
 		width: 100%;
+	    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale')";
+
 	}
 	footer .col-lg-15 {
 		width: 90%;
@@ -1501,14 +1519,14 @@ footer #contact-email {
 /* ipad landscape */
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1) {
-	.banner-whoweare {
+	.banner-whoweare{
 		margin-top: 100px;
 		padding-top: 0;
 		padding-bottom: 400px;
 		background: url(../img/exec-team.jpg) no-repeat center top;
 		background-size: cover;
-		height: 100%;
-		width: 100%;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale')";		
 	}
 	.joinus-banner0 {
 		margin-top: 100px;
@@ -1518,20 +1536,23 @@ footer #contact-email {
 		background-size: cover;
 		height: 100%;
 		width: 100%;
+	    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale')";
+
 	}
 }
 
 /* ipad portrait */
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)and (-webkit-min-device-pixel-ratio: 1) {
-	.banner-whoweare {
+	.banner-whoweare{
 		margin-top: 100px;
 		padding-top: 0;
 		padding-bottom: 400px;
 		background: url(../img/exec-team.jpg) no-repeat center top;
 		background-size: cover;
-		height: 100%;
-		width: 100%;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale')";
 	}
 	.joinus-banner0 {
 		margin-top: 100px;
@@ -1541,20 +1562,21 @@ footer #contact-email {
 		background-size: cover;
 		height: 100%;
 		width: 100%;
+	    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale')";
+
 	}
 }
 
 /* iphone6+ landscape */
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
-	.banner-whoweare {
+	.banner-whoweare{
 		margin-top: 100px;
-		/*padding-top: 0;
-		padding-bottom: 400px;*/
 		background: url(../img/exec-team.jpg) no-repeat center top;
 		background-size: cover;
-		height: 100%;
-		width: 100%;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale')";		
 	}
 	.joinus-banner0 {
 		margin-top: 100px;
@@ -1564,20 +1586,24 @@ footer #contact-email {
 		background-size: cover;
 		height: 100%;
 		width: 100%;
+	    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale')";
+
 	}
 }
 
 /* iphone6+ portrait */
 
 @media only screen and (min-device-width : 540px) and (max-device-width : 960px) and (orientation : portrait) {
-	.banner-whoweare {
+	.banner-whoweare{
 		margin-top: 100px;
 		padding-top: 0;
 		padding-bottom: 400px;
 		background: url(../img/exec-team.jpg) no-repeat center top;
 		background-size: cover;
-		height: 100%;
-		width: 100%;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale')";
+
 	}
 	.joinus-banner0 {
 		margin-top: 100px;
@@ -1587,20 +1613,23 @@ footer #contact-email {
 		background-size: cover;
 		height: 100%;
 		width: 100%;
+	    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale')";
+
 	}
 }
 
 /* iphone6 landscape */
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
-	.banner-whoweare {
+	.banner-whoweare{
 		margin-top: 100px;
 		padding-top: 0;
 		padding-bottom: 400px;
 		background: url(../img/exec-team.jpg) no-repeat center top;
 		background-size: cover;
-		height: 100%;
-		width: 100%;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale')";		
 	}
 	.joinus-banner0 {
 		margin-top: 100px;
@@ -1610,20 +1639,23 @@ footer #contact-email {
 		background-size: cover;
 		height: 100%;
 		width: 100%;
+	    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale')";
+
 	}
 }
 
 /* iphone6 portrait */
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) { 
-	.banner-whoweare {
+	.banner-whoweare{
 		margin-top: 100px;
 		padding-top: 0;
 		padding-bottom: 400px;
 		background: url(../img/exec-team.jpg) no-repeat center top;
 		background-size: cover;
-		height: 100%;
-		width: 100%;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale')";		
 	}
 	.joinus-banner0 {
 		margin-top: 100px;
@@ -1633,20 +1665,23 @@ footer #contact-email {
 		background-size: cover;
 		height: 100%;
 		width: 100%;
+	    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale')";
+
 	}
 }
 
 /* iphone5 landscape */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
-	.banner-whoweare {
+	.banner-whoweare{
 		margin-top: 100px;
 		padding-top: 0;
 		padding-bottom: 400px;
 		background: url(../img/exec-team.jpg) no-repeat center top;
 		background-size: cover;
-		height: 100%;
-		width: 100%;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale')";		
 	}
 	.joinus-banner0 {
 		margin-top: 100px;
@@ -1656,20 +1691,24 @@ footer #contact-email {
 		background-size: cover;
 		height: 100%;
 		width: 100%;
+	    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale')";
+
 	}
 }
 
 /* iphone 5 portrait */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
-	.banner-whoweare {
+	.banner-whoweare{
 		margin-top: 100px;
 		padding-top: 0;
 		padding-bottom: 200px;
 		background: url(../img/exec-team.jpg) no-repeat center top;
 		background-size: cover;
-		height: 100%;
-		width: 100%;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale')";		
+
 	}
 	.joinus-banner0 {
 		margin-top: 100px;
@@ -1679,6 +1718,9 @@ footer #contact-email {
 		background-size: cover;
 		height: 100%;
 		width: 100%;
+	    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/tachoons.png', sizingMethod='scale')";
+
 	}
 	footer .col-lg-15 {
 		width: 90%;
@@ -1689,14 +1731,61 @@ footer #contact-email {
 /* widescreens */
 
 @media (min-width: 1801px) {
-	.banner-whoweare {
+	.banner-whoweare{
 		margin-top: 100px;
 		padding-top: 500px;
 		padding-bottom: 350px;
 		color: #f8f8f8;
 		background: url(../img/exec-team.jpg) no-repeat center top;
 		background-size: cover;
-		width: 100%;
-		height: 100%;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale')";		
 	}
 }
+
+.banner-whoweare{
+  clear: both;
+  display: block;
+}
+
+
+@media (min-width: 505px) and (max-width: 768px) {
+	.banner-whoweare{
+		margin-top: 100px;
+		padding-top: 0;
+		padding-bottom: 300px;
+		background: url(../img/exec-team.jpg) no-repeat center top;
+		background-size: 100%;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale')";		
+	}
+	.ie-content{
+		clear: both;
+  		display: block;
+	}
+
+}
+
+@media (min-width: 385px) and (max-width: 504px) {
+	.banner-whoweare{
+		margin-top: 80px;
+		padding-top: 40px;
+		padding-bottom: 185px;
+		background: url(../img/exec-team.jpg) no-repeat center top;
+		background-size: 100%;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale')";		
+	}
+}
+@media (max-width: 384px) {
+	.banner-whoweare{
+		margin-top: 80px;
+		padding-top: 0px;
+		padding-bottom: 185px;
+		background: url(../img/exec-team.jpg) no-repeat center top;
+		background-size: 100%;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale');
+	    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/exec-team.jpg', sizingMethod='scale')";		
+	}
+}
+
